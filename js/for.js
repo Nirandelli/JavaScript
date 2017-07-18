@@ -11,3 +11,7 @@ setInterval(function(){
   tiempo.innerHTML = segundos;
   //console.log(segundos+=1);
 },1000);
+
+setTimeout(function(){
+  alert("hola");
+},5000);
