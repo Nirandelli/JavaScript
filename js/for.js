@@ -11,3 +11,10 @@ setInterval(function(){
   tiempo.innerHTML = segundos;
   //console.log(segundos+=1);
 },1000);
+
+// setTimeout
+var logo = document.querySelector("#logo");
+setTimeout(function(){
+  logo.style.left= "10px";
+  alert("hola");
+},5000);
