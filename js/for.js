@@ -16,5 +16,5 @@ setInterval(function(){
 var logo = document.querySelector("#logo");
 setTimeout(function(){
   logo.style.left= "10px";
-  alert("hola");
+  //alert("hola");
 },5000);
